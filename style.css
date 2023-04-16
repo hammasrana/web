@@ -1,0 +1,160 @@
+/* .myDiv {
+    display: flex;
+    border: 5px outset red;
+    width: 200px;
+    border-style: dotted;
+    background-color: lightblue;    
+    align-content: center;
+    height: 220px;
+    padding-top: 150px;
+    margin-top: 159px;
+    display:inline-block ;
+  }
+  .further{
+    border-radius:9px outset green;
+    height: 160px;
+    display: inline-block;
+    background-color: blueviolet;
+  }
+.main{
+border:3px outset blue;
+height: 400px;
+}
+.web {
+display: flex;
+border: 2px outset black;
+background-color: aquamarine;
+width:120px;
+height: 220px;
+margin-top: -15px;
+text-align: center; 
+padding-top:150px ;
+display:inline-block;
+ } */
+header {
+  background-color:green;
+  color: #fff;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:5px;
+
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: relative;
+  bottom: -18px;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight:550;
+}
+nav a:hover {
+    background-color: #fff;
+    color: #333;
+    border-radius: 30px;
+  }
+
+nav li img {
+    width: 50px;
+    border-radius: 23px;
+    background-color: green;
+    height: 50px;
+    margin-left: 743px;
+    top:-14px;
+    position:relative
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ .box {
+    border: 5px outset blue;
+    padding: 20px;
+    width: 1000px;
+  }
+  
+  .box1 {
+    display: inline-block;
+    border: 3px outset green;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top:-3px;
+    margin-right: 10px;
+  }
+
+  .box2{
+    display: inline-block;
+    border: 3px outset green;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  .box3{
+    display: inline-block;
+    border: 3px outset green;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  .container {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+  }
+  
+  .text {
+    position: absolute;
+    white-space: nowrap;
+    animation: slide 19s linear infinite;
+    color: red;
+    font-weight: 800;
+
+  }
+  img{
+    width: 2000px;
+    height:400px;
+    position:relative;
+    top: -32px;
+  }
+  @keyframes slide {
+    from {
+      transform: translateX(190%);
+    }
+    to {
+      transform: translateX(-94%);
+    }
+  }
+  
